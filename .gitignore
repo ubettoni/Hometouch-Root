@@ -1,0 +1,25 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+
+# Secrets and configuration (never commit these!)
+*.pwn_hash
+.local_env
+.env
+
+# Large binary artifacts (already in the repo as references)
+stage1.zip
+stage2.zip
+conf_now.zip
+
+# Output logs and temporary files
+*.log
+pwn.log
+PWN_STATUS.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
